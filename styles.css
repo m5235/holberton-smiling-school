@@ -1,15 +1,9 @@
-/* Variables 
-	==================== */
-    :root {
-        --font-size-small: 0.9rem;
-        --font-size-medium: 1rem;
-        --font-size-large: 2rem;
-        --font-size-xlarge: 5rem;
-        --holberton-red: #ff6565;
-        --purple-smile: #c271ff;
-        --text-color-white: #ffffff;
-        --blue-background-color: #071629;
-      }
+  /*** GLOBAL ***/
+
+/* Reset / Normalize */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
       
       body {
         font-family: Source Sans Pro;
@@ -230,4 +224,16 @@
           transform: rotate(-45deg);
           top: 1px;
         }
+      }
+
+
+      :root {
+        --font-size-small: 0.9rem;
+        --font-size-medium: 1rem;
+        --font-size-large: 2rem;
+        --font-size-xlarge: 5rem;
+        --holberton-red: #ff6565;
+        --purple-smile: #c271ff;
+        --text-color-white: #ffffff;
+        --blue-background-color: #071629;
       }
